@@ -1,0 +1,10 @@
+{application, emqttc, [
+  {id, "emqttc"},
+  {vsn, "0.8.0"},
+  {description, "Erlang MQTT Client"},
+  {registered, []},
+  {applications, [kernel,
+                  stdlib]},
+  {included_applications, []},
+  {env, []}
+]}.
